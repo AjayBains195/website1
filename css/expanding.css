@@ -32,7 +32,7 @@ body {
     transition: flex 1s ease-in;
 }
 
-.panle.active {
+.panel.active {
     flex: 5;
 }
 
