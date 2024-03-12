@@ -1,21 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-body {
-    font-family: "Madimi One", sans-serif;
-    color: white;
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
 
-a:link, a:visited {
-    background-color: burlywood;
-    color: white;
-    border: 2px white;
-    padding: 10px 20px;
+ body {
+    color: #222;
+    padding-bottom: 50px;
+    font-family: "Source Code Pro", monospace;
+ }
+
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .hero {
+    background-image: url(images/coding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+ }
 
-a:hover, a:active {
-    background-color: white;
-    color: burlywood;
-  }
+ .hero::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.5);
+   z-index: -1;
+ }
+
+ .hero h1 {
+   font-size: 46px;
+   margin: 0 0 20px;
+ }
+
+ .hero p {
+   font-size: 20px;
+   letter-spacing: 1px;
+ }
+
+ .content h2, .content h3{
+   font-size: 150%;
+   margin: 20px 0;
+ }
+
+.content a {
+   color: #555;
+   line-height: 30px;
+   letter-spacing: 1.2px;
+}
+
+.nav {
+   position: fixed;
+   background-color: #222;
+   top: 0;
+   left: 0;
+   right: 0;
+   transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0;
+   transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+   display: flex;
+   list-style-type: none;
+   align-items: center;
+   justify-content: center;
+}
+
+.nav a {
+   color: cornsilk;
+   text-decoration: none;
+   padding: 7px 15px;
+   transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+   background-color: white;
+   box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.nav.active.a {
+   color: black;
+}
+
+.nav.active .container {
+   padding: 10px 0;
+}
+
+.nav a.current, .nav a:hover {
+   color: rgb(192,57,43);
+   font-weight: bold;
 }
