@@ -23,7 +23,7 @@
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
-    color: cornsilk;
+    color: mistyrose;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +90,7 @@
 }
 
 .nav a {
-   color: cornsilk;
+   color: mistyrose;
    text-decoration: none;
    padding: 7px 15px;
    transition: all 0.3s ease-in-out;
