@@ -11,6 +11,12 @@ body {
     margin: 0;
 }
 
+.page {
+    display: block;
+    position: absolute;
+    top: 20px;
+}
+
 .search {
     height: 50px;
     position: relative;
