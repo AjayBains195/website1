@@ -12,6 +12,11 @@
     font-family: "Roboto Condensed", sans-serif;
  }
 
+ .page {
+   display: block;
+   position: absolute;
+}
+
  .container {
     max-width: 1200px;
     margin: 0 auto;

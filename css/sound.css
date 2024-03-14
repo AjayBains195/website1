@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+.page {
+    display: block;
+    position: absolute;
+    top: 20px;
+}
+
 .btn {
     background-color: rebeccapurple;
     font-size: 1.2rem;

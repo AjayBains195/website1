@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+.page {
+    display: block;
+    position: absolute;
+    top: 20px;
+}
+
 .loading-text {
     font-size: 50px;
     color: white;
