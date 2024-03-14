@@ -13,6 +13,12 @@ body {
     font-family: "Anta", sans-serif;
 }
 
+.page {
+    display: block;
+    position: absolute;
+    top: 20px;
+}
+
 .container {
     width: 90vw;
     display: flex;
