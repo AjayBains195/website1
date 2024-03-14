@@ -18,9 +18,7 @@ body {
 
  .page {
    display: block;
-   position: absolute;
-   bottom: 500px;
-   color: white;
+   color: purple;
 }
 
 body.show-nav {
