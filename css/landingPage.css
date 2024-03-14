@@ -18,6 +18,8 @@ body {
 
  .page {
    display: block;
+   position: absolute;
+   bottom: 330px;
    color: purple;
 }
 
